@@ -5,7 +5,7 @@ import './Main.css'
 function Main() {
   return (
     <>
-      <div>NavBar</div>
+      <div>Main</div>
     </>
   )
 }
