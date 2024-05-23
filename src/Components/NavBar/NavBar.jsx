@@ -2,6 +2,8 @@
 import './NavBar.css'
 
 import { MdOutlineTravelExplore } from 'react-icons/md'
+import { IoIosCloseCircle } from "react-icons/io";
+
 
 
 function NavBar() {
@@ -49,6 +51,9 @@ function NavBar() {
                 <a href="#">BOOK NOW</a>
               </button>
             </ul>
+            <div className='closeNavBar'>
+            <IoIosCloseCircle className='icon'/>
+            </div>
           </div>
 
         </header>
